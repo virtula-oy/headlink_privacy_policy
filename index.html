@@ -1,1 +1,347 @@
-!!!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="max-w-4xl mx-auto py-6 px-4">
+      <h1 class="text-3xl font-bold text-gray-900">Privacy Policy for HeadLink</h1>
+      <div class="mt-2 text-sm text-gray-600">
+        <p><strong>Effective Date:</strong> August 11, 2025</p>
+        <p><strong>App Name:</strong> HeadLink</p>
+        <p><strong>Developer:</strong> Virtula Oy</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
+      <p class="mb-4">
+        This privacy policy describes how HeadLink collects, uses, and protects your information when you use our head tracking application for Opentrack integration.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Information We Collect</h2>
+      
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Camera and Face Tracking Data</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li><strong>What we collect:</strong> HeadLink uses your device's front-facing camera to track head movements and facial position through Apple's ARKit framework</li>
+          <li><strong>How it's processed:</strong> Face tracking data (pitch, yaw, roll, and position coordinates) is processed locally on your device</li>
+          <li><strong>Purpose:</strong> To provide real-time head tracking functionality for Opentrack integration</li>
+          <li><strong>Storage:</strong> Face tracking data is not stored permanently and is only processed in real-time for transmission</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">2. Network Configuration Data</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li><strong>What we collect:</strong> IP addresses and port numbers you configure for Opentrack connections</li>
+          <li><strong>How it's stored:</strong> This information is stored locally in your device's user preferences (UserDefaults)</li>
+          <li><strong>Purpose:</strong> To establish UDP connections with Opentrack software on your computer</li>
+          <li><strong>Access:</strong> Only you can view and modify this information through the app's settings</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">3. Trial and Purchase Information</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li><strong>What we collect:</strong>
+            <ul class="list-disc pl-6 mt-2">
+              <li>Trial start time and duration</li>
+              <li>Trial extension usage status</li>
+              <li>Purchase verification status for the full version</li>
+            </ul>
+          </li>
+          <li><strong>How it's stored:</strong> Securely stored in your device's iOS Keychain using encryption</li>
+          <li><strong>Purpose:</strong> To manage the 60-minute trial period and track full version purchases</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">4. App Usage and Performance Data</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li><strong>What we collect:</strong>
+            <ul class="list-disc pl-6 mt-2">
+              <li>Connection status logs</li>
+              <li>AR session state information</li>
+              <li>Error logs for troubleshooting</li>
+            </ul>
+          </li>
+          <li><strong>How it's processed:</strong> Logged locally using Apple's os.log framework</li>
+          <li><strong>Purpose:</strong> For app functionality, debugging, and performance optimization</li>
+          <li><strong>Storage:</strong> Logs are stored locally and may be included in iOS diagnostic reports if you choose to share them with Apple</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">How We Use Your Information</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-Time Processing</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Face tracking data is processed in real-time to calculate head position and orientation</li>
+          <li>Data is immediately transmitted via UDP to the IP address you specify</li>
+          <li>No facial recognition or biometric identification is performed</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Local Storage Only</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>All configuration settings are stored locally on your device</li>
+          <li>Trial and purchase information is stored securely in your device's Keychain</li>
+          <li>No personal data is transmitted to our servers</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Opentrack Integration</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Head tracking coordinates are sent to Opentrack software via UDP protocol</li>
+          <li>You control the destination IP address and port</li>
+          <li>Data transmission only occurs to addresses you explicitly configure</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Data Sharing and Third Parties</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">No Third-Party Sharing</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>We do not share, sell, or transmit your personal information to third parties</li>
+          <li>Face tracking data is only sent to Opentrack destinations you configure</li>
+          <li>All processing occurs locally on your device</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Apple Services</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>In-app purchases are processed through Apple's App Store using StoreKit</li>
+          <li>Apple handles all payment processing according to their privacy policy</li>
+          <li>We do not receive or store payment information</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Data Security</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Local Processing</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>All face tracking occurs on-device using Apple's ARKit framework</li>
+          <li>No facial data is uploaded to external servers</li>
+          <li>Camera access is used only for real-time head tracking</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Secure Storage</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Trial and purchase data is encrypted and stored in iOS Keychain</li>
+          <li>Configuration settings use iOS standard secure storage mechanisms</li>
+          <li>No sensitive data is stored in plain text</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Network Security</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>UDP transmissions are sent only to addresses you specify</li>
+          <li>No automatic data collection or transmission occurs</li>
+          <li>You maintain complete control over data destinations</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Your Privacy Rights</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Camera Access</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>You can revoke camera access at any time through iOS Settings</li>
+          <li>The app will not function without camera access for face tracking</li>
+          <li>No images or videos are recorded or stored</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Control</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>You can reset your trial data through debug options (in development builds)</li>
+          <li>Configuration settings can be modified or reset through the app's settings</li>
+          <li>Purchase data is managed through your Apple ID account</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Deletion</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Uninstalling the app removes all locally stored data</li>
+          <li>iOS Keychain data may persist and can be removed through iOS settings</li>
+          <li>No server-side data exists to delete</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Children's Privacy</h2>
+      <p class="mb-4">
+    The app is designed for general use and does not target children specifically. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Camera and ARKit Usage</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Camera Permission</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>The app requests camera access for face tracking functionality</li>
+          <li>Camera data is processed in real-time and not recorded</li>
+          <li>Usage description: "Head tracking requires access to the camera"</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">ARKit Processing</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Face tracking uses Apple's ARKit Face Tracking configuration</li>
+          <li>Only facial landmarks and head orientation are processed</li>
+          <li>No facial recognition or identity verification is performed</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Face Mesh Visualization</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Optional face mesh overlay for visual feedback</li>
+          <li>Rendered locally on your device for user interface purposes</li>
+          <li>No mesh data is transmitted or stored</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">In-App Purchases</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Purchase Information</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Managed through Apple's App Store Connect</li>
+          <li>Purchase verification handled by Apple's StoreKit framework</li>
+          <li>We store only the verification status of your purchase locally</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Trial System</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>60-minute trial period with optional 60-minute extension</li>
+          <li>Trial data stored securely in iOS Keychain</li>
+          <li>Purchase status overrides trial limitations</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Data Retention</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Temporary Data</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Face tracking data: Processed in real-time, not stored</li>
+          <li>Network data: Transmitted immediately, not retained</li>
+          <li>Logs: Stored locally for debugging, rotated by iOS</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Persistent Data</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>App settings: Retained until app deletion</li>
+          <li>Trial information: Stored in Keychain until manually cleared</li>
+          <li>Purchase status: Managed by Apple's systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Updates to This Policy</h2>
+      <p class="mb-4">We may update this privacy policy from time to time. We will notify you of any changes by:</p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Updating the "Effective Date" at the top of this policy</li>
+        <li>Including update notes in app version releases</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Technical Details</h2>
+      
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Network Communication</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Protocol: UDP (User Datagram Protocol)</li>
+          <li>Data format: Binary head pose data (48 bytes)</li>
+          <li>Transmission rate: Up to 60 FPS</li>
+          <li>Destination: User-configured IP addresses only</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Format</h3>
+        <p class="mb-2">The app transmits the following data structure:</p>
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <code>[x, y, z, yaw, pitch, roll] as 6 double-precision values</code>
+        </div>
+        <p class="mt-2">Where:</p>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>x, y, z: Head position coordinates</li>
+          <li>yaw, pitch, roll: Head orientation in degrees</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Contact Information</h2>
+      <p class="mb-4">If you have any questions about this privacy policy or our privacy practices, please contact us at:</p>
+      <ul class="space-y-1">
+        <li><strong>Developer:</strong> Virtula Oy</li>
+        <li><strong>Email:</strong> asiakaspalvelu@virtula.fi</li>
+        <li><strong>App Support:</strong> asiakaspalvelu@virtula.fi</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Consent</h2>
+      <p class="mb-4">
+        By using HeadLink, you consent to the collection and use of information in accordance with this privacy policy. If you do not agree with our policies and practices, do not download or use the app.
+      </p>
+    </section>
+
+    <hr class="my-8 border-gray-300">
+    
+    <p class="text-sm text-gray-600 italic text-center">
+      This privacy policy was last updated on August 11, 2025. Please review it periodically for any changes.
+    </p>
+  </main>
+
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-4xl mx-auto p-4 text-center text-sm text-gray-500">
+      &copy; 2025 Virtula Oy. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
