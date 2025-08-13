@@ -11,7 +11,7 @@
     <div class="max-w-4xl mx-auto py-6 px-4">
       <h1 class="text-3xl font-bold text-gray-900">Privacy Policy for HeadLink</h1>
       <div class="mt-2 text-sm text-gray-600">
-        <p><strong>Effective Date:</strong> August 11, 2025</p>
+        <p><strong>Effective Date:</strong> August 13, 2025</p>
         <p><strong>App Name:</strong> HeadLink</p>
         <p><strong>Developer:</strong> Virtula Oy</p>
       </div>
@@ -77,6 +77,63 @@
           <li><strong>How it's processed:</strong> Logged locally using Apple's os.log framework</li>
           <li><strong>Purpose:</strong> For app functionality, debugging, and performance optimization</li>
           <li><strong>Storage:</strong> Logs are stored locally and may be included in iOS diagnostic reports if you choose to share them with Apple</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Face Data Collection and Privacy</h2>
+      
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Information We Collect</h3>
+        <p class="mb-2">Our app uses your device's TrueDepth camera system to collect:</p>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Head position coordinates (X, Y, Z spatial location)</li>
+          <li>Head orientation angles (pitch, yaw, roll rotations)</li>
+          <li>3D facial geometry data for mesh visualization</li>
+          <li>Face detection and tracking status</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Purpose of Collection</h3>
+        <p class="mb-2">Face data is collected solely to:</p>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Provide real-time head tracking functionality</li>
+          <li>Transmit head movement data to OpenTrack-compatible applications</li>
+          <li>Display optional visual feedback through face mesh overlay</li>
+          <li>Enable natural head movement input for gaming and simulation applications</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Processing and Storage</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>All face data is processed locally on your device in real-time</li>
+          <li>No face data is permanently stored, saved, or cached</li>
+          <li>Data exists only in device memory during active tracking sessions</li>
+          <li>No face data is uploaded to servers or cloud services</li>
+          <li>All data is immediately discarded when tracking stops</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Sharing</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Only processed head pose coordinates (6 numerical values) are transmitted via UDP to your configured local network endpoint</li>
+          <li>No face data is shared with third parties, advertisers, or analytics services</li>
+          <li>You control exactly where tracking data is sent through IP address and port configuration</li>
+          <li>No raw facial imagery or biometric identifiers are ever transmitted</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Your Control</h3>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Face tracking requires explicit camera permission</li>
+          <li>You can stop tracking immediately by closing the app</li>
+          <li>You control network transmission through settings</li>
+          <li>Face mesh visualization can be disabled in settings</li>
         </ul>
       </div>
     </section>
@@ -334,7 +391,7 @@
     <hr class="my-8 border-gray-300">
     
     <p class="text-sm text-gray-600 italic text-center">
-      This privacy policy was last updated on August 11, 2025. Please review it periodically for any changes.
+      This privacy policy was last updated on August 13, 2025. Please review it periodically for any changes.
     </p>
   </main>
 
